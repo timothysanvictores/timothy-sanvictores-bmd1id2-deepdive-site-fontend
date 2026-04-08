@@ -1,27 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap");
+
+:root {
+  /* Mimicking a color object palette */
+  --primary-color: #FFFBF5;
+  --secondary-color: #F3E2CE;
+  --black: #2a2a2a;
+}
+
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid red; */
+	margin:20px;
+	padding:0px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	gap:1.5rem;
+
+	/* border: 1px solid red; */
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	font-size: 21px;
+	text-decoration: none;
+	margin: 0px;
+	padding:0px;
+}
+a, a:visited {
+	color:inherit;
+}
+
+/* background */
+body {
+	background-color: var(--secondary-color);
+	width: 100dvw;
+	height: 100dvh;
+	margin: 0px;
+}
+
+#background-container {
+	position: absolute;
+	background-color: var(--primary-color);
+	width: calc(100dvw - 40px);
+	height: calc(100svh - 40px);
+	margin: 20px 20px;
+	padding: 0px;
+}
 
 /* Fonts */
 .bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.roboto-flex-extralight> {
-  font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
+.roboto-flex-extralight > {
+	font-family: "Roboto Flex", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+	font-variation-settings:
+		"slnt" 0,
+		"wdth" 100,
+		"GRAD" 0,
+		"XOPQ" 96,
+		"XTRA" 468,
+		"YOPQ" 79,
+		"YTAS" 750,
+		"YTDE" -203,
+		"YTFI" 738,
+		"YTLC" 514,
+		"YTUC" 712;
+}
+
+h1 {
+	font-size: 21px;
+	margin:0px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 21px;
 }
