@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Latte Art</title>
+		<link rel="stylesheet" href="src/static/css/styles.css" />
+		<script src="src/static/scripts/scripts.js"></script>
+	</head>
+	<body>
+		<section id="background-container">
+			<header>
+				<h1 class="bebas-neue-regular"><a href="index.html">Latte Art</a></h1>
+				<nav id="desktop-nav">
+					<a class="bebas-neue-regular" href="index.html">Home</a>
+					<a class="bebas-neue-regular" href="src/pages/learn/learn.html">Learn</a>
+					<a class="bebas-neue-regular" href="src/pages/gallery/gallery.html">Gallery</a>
+					<a class="bebas-neue-regular" href="src/pages/calculate.html">Calculate</a>
+				</nav>
+				<img onclick=mobileNavMenu() id="hamburger-icon-large" src="src/static/assets/img/index/hamburger-container.svg" alt="">
+				<img onclick=closeMobileNavMenu() id="close-icon-large" class="hide-element" src="src/static/assets/img/index/close-icon-large.svg" alt="">
+			</header>
+			<nav id="mobile-nav" class="hide-element">
+				<a class="bebas-neue-regular" href="index.html">Home</a>
+				<a class="bebas-neue-regular" href="src/pages/learn/learn.html">Learn</a>
+				<a class="bebas-neue-regular" href="src/pages/gallery/gallery.html">Gallery</a>
+				<a class="bebas-neue-regular" href="src/pages/calculate.html">Calculate</a>
+			</nav>
+			<main id="hero-container">
+				<img id="main-hero-image" src="src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+				<section id="hero-text-container">
+					<h4 class="roboto-flex-extralight">AN</h1>
+					<h1 class="bebas-neue-regular art-decoration">ART</h1>
+					<h4 class="roboto-flex-extralight">WITH</h1>
+				</section>
+			</main>
+			<footer id="hero-footer">
+				<h1 class="bebas-neue-regular art-decoration">LIMITS</h1>
+				<section id="hero-image-selector">
+					<img id="selector-hero-image" src="src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+					<img id="selector-hero-image" src="src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+					<img id="selector-hero-image" src="src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+					<img id="selector-hero-image" src="src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+				</section>
+			</footer>
+		</section>
+	</body>
+</html>
