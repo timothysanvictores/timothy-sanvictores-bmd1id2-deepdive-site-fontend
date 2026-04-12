@@ -11,13 +11,21 @@
 		<section id="background-container">
 			<header>
 				<h1 class="bebas-neue-regular"><a href="/./src/pages/index.html">Latte Art</a></h1>
-				<nav>
+				<nav id="desktop-nav">
 					<a class="bebas-neue-regular" href="/./src/pages/index.html">Home</a>
 					<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
 					<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
 					<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
 				</nav>
+				<img onclick="mobileNavMenu()" id="hamburger-icon-large" src="/./src/static/assets/img/index/hamburger-container.svg" alt="" />
+				<img onclick="closeMobileNavMenu()" id="close-icon-large" class="hide-element" src="/./src/static/assets/img/index/close-icon-large.svg" alt="" />
 			</header>
+			<nav id="mobile-nav" class="hide-element">
+				<a class="bebas-neue-regular" href="/./src/pages/index.html">Home</a>
+				<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
+				<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
+				<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
+			</nav>
 			<main>
 				<h1>this is the calculate page</h1>
 			</main>
