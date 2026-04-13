@@ -9,31 +9,152 @@
 	</head>
 	<body>
 		<section id="background-container">
-			<header>
-				<h1 class="bebas-neue-regular"><a href="/./index.html">Latte Art</a></h1>
-				<nav id="desktop-nav">
-					<a class="bebas-neue-regular" href="/./index.html">Home</a>
-					<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
-					<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
-					<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
-				</nav>
-				<img onclick="mobileNavMenu()" id="hamburger-icon-large" src="/./src/static/assets/img/index/hamburger-container.svg" alt="" />
-				<img onclick="closeMobileNavMenu()" id="close-icon-large" class="hide-element" src="/./src/static/assets/img/index/close-icon-large.svg" alt="" />
-			</header>
-			<nav id="mobile-nav" class="hide-element">
-				<a class="bebas-neue-regular" href="/./index.html">Home</a>
-				<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
-				<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
-				<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
-			</nav>
-			<main>
-				<h1>this is the Learn page</h1>
-				<a href="learn-machine.html">machine</a>
-				<a href="learn-crema.html">crema</a>
-				<a href="learn-milk.html">milk</a>
-				<a href="learn-pour.html">pour</a>
-			</main>
-			<footer></footer>
+			<section id="learn-home-container">
+				<img id="learn-home-image-desktop" src="/./src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+				<section id="learn-home-main">
+					<header>
+						<h1 class="bebas-neue-regular"><a href="/./index.html">Latte Art</a></h1>
+						<nav id="desktop-nav">
+							<a class="bebas-neue-regular" href="/./index.html">Home</a>
+							<img id="desktop-nav-status" src="/./src/static/assets/img/Rectangle 6.png" alt="" />
+							<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
+							<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
+							<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
+						</nav>
+						<img onclick="mobileNavMenuLearn()" id="hamburger-icon-large" src="/./src/static/assets/img/index/hamburger-container.svg" alt="" />
+						<img onclick="closeMobileNavMenuLearn()" id="close-icon-large" class="hide-element" src="/./src/static/assets/img/index/close-icon-large.svg" alt="" />
+					</header>
+					<nav id="mobile-nav-learn" class="hide-element">
+						<a class="bebas-neue-regular" href="/./index.html">Home</a>
+						<section id="mobile-nav-status">
+							<img src="/./src/static/assets/img/Rectangle 19.svg" alt="" />
+							<a class="bebas-neue-regular" href="/./src/pages/learn/learn.html">Learn</a>
+						</section>
+						<a class="bebas-neue-regular" href="/./src/pages/gallery/gallery.html">Gallery</a>
+						<a class="bebas-neue-regular" href="/./src/pages/calculate.html">Calculate</a>
+					</nav>
+					<main id="learn-main">
+						<section id="learn-desktop-container">
+							<h2 class="desktop-heading bebas-neue-regular" class="bebas-neue-regular">LEARN</h2>
+							<section id="learn-middle-menu">
+								<a href="learn-machine.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">MACHINE</h3>
+												<p class="roboto-flex-extralight">Setup your Machine</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-crema.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">CREMA</h3>
+												<p class="roboto-flex-extralight">Pull your Shot</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-milk.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">MILK</h3>
+												<p class="roboto-flex-extralight">Steam your Milk</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-pour.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">POUR</h3>
+												<p class="roboto-flex-extralight">Pour your Latte Art</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+							</section>
+							<section class="paper-trail-container">
+								<p class="bebas-neue-regular paper-trail">LEARN /</p>
+							</section>
+						</section>
+
+						<section id="learn-mobile-container" class="hide-element">
+							<img id="learn-home-image-mobile" src="/./src/static/assets/img/index/AdobeStock_219364830.jpeg" alt="" />
+							<h2 class="desktop-heading bebas-neue-regular" class="bebas-neue-regular">LEARN</h2>
+							<section id="learn-middle-menu">
+								<a href="learn-machine.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">MACHINE</h3>
+												<p class="roboto-flex-extralight">Setup your Machine</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-crema.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">CREMA</h3>
+												<p class="roboto-flex-extralight">Pull your Shot</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-milk.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">MILK</h3>
+												<p class="roboto-flex-extralight">Steam your Milk</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+								<a href="learn-pour.html">
+									<article class="learn-middle-menu-item">
+										<h4 class="bebas-neue-regular">00</h4>
+										<section>
+											<section>
+												<h3 class="bebas-neue-regular">POUR</h3>
+												<p class="roboto-flex-extralight">Pour your Latte Art</p>
+											</section>
+											<img src="/./src/static/assets/img/learn/Polygon 1.svg" alt="" />
+										</section>
+									</article>
+								</a>
+							</section>
+						</section>
+
+						<!-- <h1>this is the Learn page</h1>
+						<a href="learn-machine.html">machine</a>
+						<a href="learn-crema.html">crema</a>
+						<a href="learn-milk.html">milk</a>
+						<a href="learn-pour.html">pour</a> -->
+					</main>
+					<footer></footer>
+				</section>
+			</section>
 		</section>
 	</body>
 </html>
