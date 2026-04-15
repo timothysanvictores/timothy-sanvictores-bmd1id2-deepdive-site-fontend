@@ -12,6 +12,12 @@ html {
 	--black: #2a2a2a;
 }
 
+.underconstruction {
+	display:flex;
+	align-items: center;
+	gap: 10px;
+}
+
 /* script classes */
 .hide-element {
 	display: none;
