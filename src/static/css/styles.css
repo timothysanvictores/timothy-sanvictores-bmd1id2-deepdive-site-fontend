@@ -477,10 +477,11 @@ img {
 .content-card-img-selector {
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: space-between;
 	gap: 5px;
 	margin-top: 20px;
 	margin-right: 20px;
+	height: calc(100% - 20px);
 
 	/* border: 1px solid red; */
 }
@@ -488,7 +489,7 @@ img {
 .content-card-img-selector > img {
 	object-fit: cover;
 	aspect-ratio: 1 / 1;
-	height: 3dvw;
+	height: 4dvw;
 }
 
 .content-card-text {
@@ -798,5 +799,13 @@ img {
 	.gallery-background-image-container {
 		background-size: 70dvw 70dvw;
 		margin-top: 70px;
+	}
+
+	.content-card-img-selector {
+		justify-content: end;
+	}
+
+	.content-card-img-selector > img {
+		height: 3dvw;
 	}
 }
