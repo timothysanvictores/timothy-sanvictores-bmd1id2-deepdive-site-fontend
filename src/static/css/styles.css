@@ -350,6 +350,7 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
+	margin-left: 40px;
 
 	/* border: 2px solid red; */
 }
@@ -720,13 +721,16 @@ img {
 	}
 
 	#learn-middle-menu {
-		gap: 5dvh;
+		gap: 1dvh;
 		/* border: 1px solid red; */
 		justify-content: space-between;
+		margin: 0px;
+		overflow: scroll;
+		scrollbar-width: none;
 	}
 
 	.learn-middle-menu-item > section > section {
-		width: 100%;
+		width: 0px;
 		/* border: 1px solid red; */
 	}
 
